@@ -5,7 +5,7 @@ class Testsetup < Formula
   url "https://frogets.jfrog.io/artifactory/generic-local/testsetup-1.2.1.tar.gz"
   sha256 "4caebc6768946337732520439af5dc1524679266abb6d1a79cf5af4ec646d17b"
 
-  depends_on "python@3.11"
+  depends_on "python@3.8"
 
   resource "httptools" do
     url "https://files.pythonhosted.org/packages/d9/6f/aad92c3f090e2f74dd728d58d3bba4c832d35199814af99673ee7300b582/httptools-0.1.1.tar.gz"
